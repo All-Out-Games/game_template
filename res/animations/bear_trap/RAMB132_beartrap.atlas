@@ -1,0 +1,65 @@
+RAMB132_beartrap.png
+	size: 3952, 480
+	filter: Linear, Linear
+RAMB132/bear_trap/shadow
+	bounds: 3916, 338, 136, 33
+	offsets: 1, 1, 138, 35
+	rotate: 90
+RAMB132/bear_trap/trap_set
+	bounds: 3566, 273, 201, 187
+	offsets: 1, 1, 203, 189
+	rotate: 90
+RAMB132/bear_trap/trap_triggered
+	bounds: 3566, 122, 178, 148
+RAMB132/blood/blood_puddle
+	bounds: 2466, 120, 354, 211
+	offsets: 1, 1, 356, 213
+	rotate: 90
+RAMB132/blood/circular_blood_spurt_1
+	bounds: 2680, 200, 274, 251
+	offsets: 1, 1, 276, 253
+	rotate: 90
+RAMB132/blood/circular_blood_spurt_2
+	bounds: 2182, 168, 306, 281
+	offsets: 1, 1, 308, 283
+	rotate: 90
+RAMB132/blood/circular_blood_spurt_3
+	bounds: 1887, 157, 317, 292
+	offsets: 1, 1, 319, 294
+	rotate: 90
+RAMB132/blood/directional_blood_spurt_1
+	bounds: 3756, 111, 189, 163
+	offsets: 1, 1, 191, 165
+RAMB132/blood/directional_blood_spurt_2
+	bounds: 3756, 277, 197, 157
+	offsets: 1, 1, 199, 159
+	rotate: 90
+RAMB132/blood/directional_blood_spurt_3
+	bounds: 3363, 45, 199, 153
+	offsets: 1, 1, 201, 155
+RAMB132/blood/upwards_blood_spurt_1
+	bounds: 3363, 201, 273, 200
+	offsets: 1, 1, 275, 202
+	rotate: 90
+RAMB132/blood/upwards_blood_spurt_2
+	bounds: 3150, 170, 304, 210
+	offsets: 1, 1, 306, 212
+	rotate: 90
+RAMB132/blood/upwards_blood_spurt_3
+	bounds: 2934, 157, 317, 213
+	offsets: 1, 1, 319, 215
+	rotate: 90
+RAMB132/white poof/Poof_1
+	bounds: 1559, 88, 386, 325
+	offsets: 1, 1, 388, 327
+	rotate: 90
+RAMB132/white poof/Poof_2
+	bounds: 1168, 3, 471, 388
+	offsets: 1, 1, 473, 390
+	rotate: 90
+RAMB132/white poof/Poof_3
+	bounds: 3, 5, 598, 469
+	offsets: 1, 1, 600, 471
+RAMB132/white poof/Poof_4
+	bounds: 604, 19, 561, 455
+	offsets: 1, 1, 563, 457

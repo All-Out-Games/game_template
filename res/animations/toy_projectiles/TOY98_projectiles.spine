@@ -1,0 +1,302 @@
+{
+"skeleton": { "hash": "ibZwbKIf7Io", "spine": "4.0.64", "x": -82, "y": -44, "width": 164, "height": 88 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "projectile", "parent": "root" },
+	{ "name": "hit_effect", "parent": "root" },
+	{ "name": "projectile_back", "parent": "root", "x": -68.07 },
+	{ "name": "explosion", "parent": "root" }
+],
+"slots": [
+	{ "name": "projectile_1", "bone": "projectile", "attachment": "projectile_1" },
+	{ "name": "projectile_back", "bone": "projectile_back" },
+	{ "name": "hit_effect_1", "bone": "hit_effect" },
+	{ "name": "hit_effect_2", "bone": "hit_effect" },
+	{ "name": "hit_effect_3", "bone": "hit_effect" },
+	{ "name": "projectile_2", "bone": "projectile" },
+	{ "name": "projectile_3", "bone": "projectile" },
+	{ "name": "missile/missile_explosion/Explosion_1", "bone": "explosion" },
+	{ "name": "missile/missile_explosion/Explosion_2", "bone": "explosion" },
+	{ "name": "missile/missile_explosion/Explosion_3", "bone": "explosion" },
+	{ "name": "missile/missile_explosion/Explosion_4", "bone": "explosion" },
+	{ "name": "missile/missile_explosion/Explosion_5", "bone": "explosion" },
+	{ "name": "missile/missile_explosion/Explosion_6", "bone": "explosion" },
+	{ "name": "missile/missile_explosion/Explosion_7", "bone": "explosion" }
+],
+"skins": [
+	{
+		"name": "missile",
+		"attachments": {
+			"missile/missile_explosion/Explosion_1": {
+				"missile/missile_explosion/Explosion_1": { "x": 0.5, "y": 0.5, "width": 699, "height": 673 }
+			},
+			"missile/missile_explosion/Explosion_2": {
+				"missile/missile_explosion/Explosion_2": { "x": 0.5, "y": 0.5, "width": 1155, "height": 1099 }
+			},
+			"missile/missile_explosion/Explosion_3": {
+				"missile/missile_explosion/Explosion_3": { "x": 0.5, "y": 0.5, "width": 1391, "height": 1273 }
+			},
+			"missile/missile_explosion/Explosion_4": {
+				"missile/missile_explosion/Explosion_4": { "x": 0.5, "y": 0.5, "width": 1805, "height": 1573 }
+			},
+			"missile/missile_explosion/Explosion_5": {
+				"missile/missile_explosion/Explosion_5": { "x": 0.5, "width": 2283, "height": 1944 }
+			},
+			"missile/missile_explosion/Explosion_6": {
+				"missile/missile_explosion/Explosion_6": { "x": 0.5, "width": 2329, "height": 2076 }
+			},
+			"missile/missile_explosion/Explosion_7": {
+				"missile/missile_explosion/Explosion_7": { "y": 0.5, "width": 2328, "height": 2071 }
+			},
+			"projectile_1": {
+				"projectile_1": { "name": "missile/missile", "width": 164, "height": 88 }
+			},
+			"projectile_back": {
+				"projectile_back": { "name": "missile/missile_fire", "x": -23.75, "width": 62, "height": 40 }
+			}
+		}
+	},
+	{
+		"name": "pistol",
+		"attachments": {
+			"hit_effect_1": {
+				"hit_effect_1": { "name": "pistol_bullet/Hitspark/dart_hit_spark_frame_1", "x": -1, "width": 49, "height": 48 }
+			},
+			"hit_effect_2": {
+				"hit_effect_2": { "name": "pistol_bullet/Hitspark/dart_hit_spark_frame_2", "x": -1, "y": -0.65, "width": 69, "height": 71 }
+			},
+			"projectile_1": {
+				"projectile_1": { "name": "pistol_bullet/pistol_bullet", "width": 63, "height": 28 }
+			}
+		}
+	},
+	{
+		"name": "shuriken",
+		"attachments": {
+			"hit_effect_1": {
+				"hit_effect_1": { "width": 162, "height": 178 }
+			},
+			"hit_effect_2": {
+				"hit_effect_2": { "y": 0.5, "width": 216, "height": 229 }
+			},
+			"hit_effect_3": {
+				"hit_effect_3": { "y": 0.5, "width": 238, "height": 255 }
+			},
+			"projectile_1": {
+				"projectile_1": { "name": "fidget_shuriken", "y": 0.5, "width": 106, "height": 107 }
+			}
+		}
+	}
+],
+"animations": {
+	"TOY98/dart_idle": {
+		"slots": {
+			"projectile_back": {
+				"attachment": [
+					{ "name": "projectile_back" },
+					{ "time": 0.0833, "name": "projectile_back" }
+				]
+			}
+		}
+	},
+	"TOY98/flying_idles_static": {
+		"slots": {
+			"projectile_back": {
+				"attachment": [
+					{ "name": "projectile_back" },
+					{ "time": 0.0833, "name": "projectile_back" }
+				]
+			}
+		}
+	},
+	"TOY98/hit_effect": {
+		"slots": {
+			"hit_effect_1": {
+				"attachment": [
+					{ "name": "hit_effect_1" },
+					{ "time": 0.125, "name": null }
+				]
+			},
+			"hit_effect_2": {
+				"attachment": [
+					{ "time": 0.125, "name": "hit_effect_2" },
+					{ "time": 0.2083, "name": null }
+				]
+			},
+			"hit_effect_3": {
+				"attachment": [
+					{ "time": 0.2083, "name": "hit_effect_3" },
+					{ "time": 0.2917, "name": null }
+				]
+			},
+			"missile/missile_explosion/Explosion_2": {
+				"attachment": [
+					{ "time": 0.0417, "name": "missile/missile_explosion/Explosion_2" },
+					{ "time": 0.0833, "name": null }
+				]
+			},
+			"missile/missile_explosion/Explosion_3": {
+				"attachment": [
+					{ "time": 0.0833, "name": "missile/missile_explosion/Explosion_3" },
+					{ "time": 0.125, "name": null }
+				]
+			},
+			"missile/missile_explosion/Explosion_4": {
+				"attachment": [
+					{ "time": 0.125, "name": "missile/missile_explosion/Explosion_4" },
+					{ "time": 0.1667, "name": null }
+				]
+			},
+			"missile/missile_explosion/Explosion_5": {
+				"attachment": [
+					{ "time": 0.1667, "name": "missile/missile_explosion/Explosion_5" },
+					{ "time": 0.2083, "name": null }
+				]
+			},
+			"missile/missile_explosion/Explosion_6": {
+				"attachment": [
+					{ "time": 0.2083, "name": "missile/missile_explosion/Explosion_6" },
+					{ "time": 0.2917, "name": null }
+				]
+			},
+			"missile/missile_explosion/Explosion_7": {
+				"attachment": [
+					{ "time": 0.2917, "name": "missile/missile_explosion/Explosion_7" }
+				]
+			},
+			"projectile_1": {
+				"attachment": [
+					{ "name": null }
+				]
+			}
+		},
+		"bones": {
+			"hit_effect": {
+				"scale": [
+					{
+						"x": 0.493,
+						"y": 0.493,
+						"curve": [ 0.064, 1.085, 0.181, 1.252, 0.063, 1.085, 0.181, 1.252 ]
+					},
+					{ "time": 0.2917, "x": 1.252, "y": 1.252 }
+				]
+			},
+			"explosion": {
+				"scale": [
+					{},
+					{ "time": 0.0417, "x": 0.64, "y": 0.64 },
+					{ "time": 0.0833, "x": 0.461, "y": 0.461 }
+				]
+			}
+		}
+	},
+	"TOY98/missile_idle": {
+		"slots": {
+			"projectile_back": {
+				"attachment": [
+					{ "name": "projectile_back" }
+				]
+			}
+		},
+		"bones": {
+			"projectile": {
+				"scale": [
+					{
+						"curve": [ 0.028, 1, 0.056, 1.137, 0.028, 1, 0.056, 0.858 ]
+					},
+					{
+						"time": 0.0833,
+						"x": 1.137,
+						"y": 0.858,
+						"curve": [ 0.111, 1.137, 0.139, 0.937, 0.111, 0.858, 0.139, 1.066 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 0.937,
+						"y": 1.066,
+						"curve": [ 0.194, 0.937, 0.222, 1.1, 0.194, 1.066, 0.222, 0.888 ]
+					},
+					{
+						"time": 0.25,
+						"x": 1.1,
+						"y": 0.888,
+						"curve": [ 0.278, 1.1, 0.306, 1, 0.278, 0.888, 0.306, 1 ]
+					},
+					{ "time": 0.3333 }
+				]
+			},
+			"projectile_back": {
+				"scale": [
+					{
+						"x": 1.458,
+						"y": 0.687,
+						"curve": [ 0.014, 1.458, 0.028, 1.157, 0.014, 0.687, 0.028, 1.522 ]
+					},
+					{
+						"time": 0.0417,
+						"x": 1.157,
+						"y": 1.522,
+						"curve": [ 0.056, 1.157, 0.069, 1.458, 0.056, 1.522, 0.069, 0.839 ]
+					},
+					{
+						"time": 0.0833,
+						"x": 1.458,
+						"y": 0.839,
+						"curve": [ 0.097, 1.458, 0.111, 0.913, 0.097, 0.839, 0.111, 1.495 ]
+					},
+					{
+						"time": 0.125,
+						"x": 0.913,
+						"y": 1.495,
+						"curve": [ 0.139, 0.913, 0.153, 1.533, 0.139, 1.495, 0.153, 0.837 ]
+					},
+					{
+						"time": 0.1667,
+						"x": 1.533,
+						"y": 0.837,
+						"curve": [ 0.181, 1.533, 0.194, 1.14, 0.181, 0.837, 0.194, 1.249 ]
+					},
+					{
+						"time": 0.2083,
+						"x": 1.14,
+						"y": 1.249,
+						"curve": [ 0.222, 1.14, 0.236, 1.458, 0.222, 1.249, 0.236, 0.796 ]
+					},
+					{
+						"time": 0.25,
+						"x": 1.458,
+						"y": 0.796,
+						"curve": [ 0.264, 1.458, 0.278, 1.101, 0.264, 0.796, 0.278, 1.249 ]
+					},
+					{
+						"time": 0.2917,
+						"x": 1.101,
+						"y": 1.249,
+						"curve": [ 0.306, 1.101, 0.319, 1.463, 0.306, 1.249, 0.319, 0.689 ]
+					},
+					{ "time": 0.3333, "x": 1.463, "y": 0.689 }
+				]
+			}
+		}
+	},
+	"TOY98/shuriken_idle": {
+		"slots": {
+			"projectile_back": {
+				"attachment": [
+					{ "name": "projectile_back" }
+				]
+			}
+		},
+		"bones": {
+			"projectile": {
+				"rotate": [
+					{},
+					{ "time": 0.0833, "value": -116.7 },
+					{ "time": 0.1667, "value": -220.93 },
+					{ "time": 0.25, "value": -337.99 }
+				]
+			}
+		}
+	}
+}
+}

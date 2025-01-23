@@ -1,0 +1,50 @@
+{
+"skeleton": { "hash": "sRUbKDr2ZVU", "spine": "4.0.64", "x": -124, "y": -60, "width": 248, "height": 248 },
+"bones": [
+	{ "name": "root" },
+	{ "name": "Target", "parent": "root" }
+],
+"slots": [
+	{ "name": "TrapIndicator", "bone": "Target", "attachment": "TrapIndicator" }
+],
+"skins": [
+	{
+		"name": "default",
+		"attachments": {
+			"TrapIndicator": {
+				"TrapIndicator": { "y": 64, "width": 248, "height": 248 }
+			}
+		}
+	}
+],
+"animations": {
+	"Idle": {
+		"slots": {
+			"TrapIndicator": {
+				"rgba": [
+					{ "color": "ffffffff" },
+					{ "time": 0.3333, "color": "ffffff7d" },
+					{ "time": 0.6667, "color": "ffffffff" },
+					{ "time": 1, "color": "ffffff7d" },
+					{ "time": 1.3333, "color": "ffffffff" },
+					{ "time": 1.6667, "color": "ffffff7d" },
+					{ "time": 2, "color": "ffffffff" }
+				]
+			}
+		},
+		"bones": {
+			"Target": {
+				"scale": [
+					{},
+					{ "time": 0.3333, "x": 0.8, "y": 0.8 },
+					{ "time": 0.6667 },
+					{ "time": 1, "x": 0.8, "y": 0.8 },
+					{ "time": 1.3333 },
+					{ "time": 1.6667, "x": 0.8, "y": 0.8 },
+					{ "time": 2 }
+				]
+			}
+		}
+	}
+}
+}

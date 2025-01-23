@@ -1,0 +1,57 @@
+TOY98_projectiles.png
+	size: 3864, 4024
+	filter: Linear, Linear
+fidget_shuriken
+	bounds: 2497, 1968, 104, 105
+	offsets: 1, 1, 106, 107
+hit_effect_1
+	bounds: 3032, 1948, 157, 173
+	offsets: 3, 3, 162, 178
+hit_effect_2
+	bounds: 3032, 2268, 210, 225
+	offsets: 3, 2, 216, 229
+hit_effect_3
+	bounds: 3032, 2496, 233, 251
+	offsets: 2, 2, 238, 255
+missile/missile
+	bounds: 2332, 1987, 162, 86
+	offsets: 1, 1, 164, 88
+missile/missile_explosion/Explosion_1
+	bounds: 2332, 2076, 697, 671
+	offsets: 1, 1, 699, 673
+missile/missile_explosion/Explosion_3
+	bounds: 2332, 2750, 1389, 1271
+	offsets: 1, 1, 1391, 1273
+missile/missile_explosion/Explosion_4
+	bounds: 2287, 142, 1803, 1571
+	offsets: 1, 1, 1805, 1573
+	rotate: 90
+missile/missile_explosion/Explosion_5
+	bounds: 3, 3, 2281, 1942
+	offsets: 1, 1, 2283, 1944
+missile/missile_explosion/Explosion_6
+	bounds: 3, 1948, 2326, 2073
+	offsets: 1, 1, 2329, 2076
+missile/missile_fire
+	bounds: 2604, 1963, 60, 38
+	offsets: 1, 1, 62, 40
+pistol_bullet/Hitspark/dart_hit_spark_frame_1
+	bounds: 2667, 1955, 47, 46
+	offsets: 1, 1, 49, 48
+pistol_bullet/Hitspark/dart_hit_spark_frame_2
+	bounds: 2604, 2004, 67, 69
+	offsets: 1, 1, 69, 71
+pistol_bullet/pistol_bullet
+	bounds: 2332, 1958, 61, 26
+	offsets: 1, 1, 63, 28
+
+TOY98_projectiles_2.png
+	size: 2076, 3432
+	filter: Linear, Linear
+missile/missile_explosion/Explosion_2
+	bounds: 3, 2332, 1153, 1097
+	offsets: 1, 1, 1155, 1099
+missile/missile_explosion/Explosion_7
+	bounds: 3, 3, 2326, 2069
+	offsets: 1, 1, 2328, 2071
+	rotate: 90

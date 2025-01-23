@@ -1,0 +1,25 @@
+bee_cloud.png
+	size: 1004, 1004
+	filter: Linear, Linear
+	scale: 0.5
+bee
+	bounds: 866, 205, 120, 89
+	offsets: 0, 1, 120, 90
+	rotate: 90
+bee_cloud1
+	bounds: 6, 676, 470, 321
+	offsets: 1, 1, 471, 322
+bee_cloud2
+	bounds: 6, 9, 428, 329
+	offsets: 1, 0, 429, 330
+bee_cloud3
+	bounds: 461, 331, 434, 331
+bee_cloud4
+	bounds: 6, 344, 449, 326
+	offsets: 1, 1, 450, 328
+bee_cloud5
+	bounds: 482, 668, 455, 329
+	offsets: 0, 0, 456, 329
+bee_cloud6
+	bounds: 440, 6, 420, 319
+	offsets: 0, 1, 420, 321

@@ -1,0 +1,21 @@
+poof.png
+	size: 3396, 636
+	filter: Linear, Linear
+poof (1)
+	bounds: 3145, 116, 257, 248
+	rotate: 90
+poof (2)
+	bounds: 2848, 116, 294, 319
+poof (3)
+	bounds: 2433, 21, 414, 412
+	rotate: 90
+poof (4)
+	bounds: 1940, 21, 534, 490
+	rotate: 90
+poof (5)
+	bounds: 1365, 21, 611, 572
+	rotate: 90
+poof (6)
+	bounds: 704, 22, 658, 610
+poof (7)
+	bounds: 3, 3, 698, 629

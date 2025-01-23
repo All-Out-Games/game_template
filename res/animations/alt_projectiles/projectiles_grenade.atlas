@@ -1,0 +1,9 @@
+projectiles_grenade.png
+	size: 76, 124
+	filter: Linear, Linear
+Hitspark/dart_hit_spark_frame_1
+	bounds: 3, 3, 47, 46
+	offsets: 1, 1, 49, 48
+Hitspark/dart_hit_spark_frame_2
+	bounds: 3, 52, 67, 69
+	offsets: 1, 1, 69, 71

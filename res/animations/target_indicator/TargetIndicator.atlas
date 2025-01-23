@@ -1,0 +1,6 @@
+TargetIndicator.png
+	size: 244, 112
+	filter: Linear, Linear
+TrapIndicator
+	bounds: 3, 3, 236, 103
+	offsets: 6, 6, 248, 248
